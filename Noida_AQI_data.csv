@@ -1,0 +1,10 @@
+City,Season,Month,AQI,Main_Pollutant,Temperature_C,Humidity_%,Wind_Speed_kph,AQI_Category
+Noida,Spring,12,72,PM2.5,37.9,55,25.4,Moderate
+Noida,Summer,9,357,SO2,26.3,75,17.4,Hazardous
+Noida,Winter,1,278,O3,27.0,90,13.3,Hazardous
+Noida,Winter,11,163,PM10,3.7,66,22.4,Very Unhealthy
+Noida,Fall,12,169,SO2,28.7,45,3.3,Very Unhealthy
+Noida,Fall,4,402,O3,23.9,57,22.8,Hazardous
+Noida,Winter,10,339,SO2,12.9,81,28.3,Hazardous
+Noida,Summer,11,374,PM2.5,0.7,47,27.5,Hazardous
+Noida,Winter,12,285,O3,2.5,13,12.2,Hazardous

@@ -75,8 +75,14 @@ while True:
           print("New row added.")
       elif dm == '3':
         city_name = input("Enter city name for filtered data: ")
+        city_name=city_name.strip()
         filtered_df = df[df['City'] == city_name]
-        if filtered_df is not city_name:
+        #MyCity= filtered_df['City'].unique()
+        unique_cities = filtered_df['City'].unique()
+
+        # Sets default value if empty
+        MyCity = unique_cities if len(unique_cities) > 0 else "Default City"
+        if (MyCity != city_name) or MyCity=='Default City':
             print("Entered City Name not present in our database")
         else:
             filtered_df.to_csv(f"{city_name}_AQI_data.csv", index=False)

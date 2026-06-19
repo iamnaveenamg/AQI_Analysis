@@ -1,0 +1,12 @@
+City,Season,Month,AQI,Main_Pollutant,Temperature_C,Humidity_%,Wind_Speed_kph,AQI_Category
+Delhi,Spring,3,119,NO2,-4.1,45,3.3,Unhealthy
+Delhi,Fall,10,156,PM2.5,34.1,42,3.6,Very Unhealthy
+Delhi,Spring,7,119,SO2,12.5,82,27.8,Unhealthy
+Delhi,Fall,7,301,PM2.5,-0.5,43,14.3,Hazardous
+Delhi,Spring,9,124,O3,-2.6,40,29.8,Unhealthy
+Delhi,Summer,3,342,NO2,38.0,44,20.3,Hazardous
+Delhi,Summer,12,135,SO2,4.4,54,26.5,Unhealthy
+Delhi,Fall,10,93,CO,3.5,40,20.3,Moderate
+Delhi,Fall,7,84,CO,-1.6,69,26.5,Moderate
+Delhi,Fall,12,446,PM2.5,-8.1,29,12.7,Hazardous
+Delhi,Fall,1,308,CO,2.6,47,9.3,Hazardous
